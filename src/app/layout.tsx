@@ -1,11 +1,11 @@
 import { Metadata } from 'next';
 import { SessionProvider } from 'next-auth/react';
 
-import Navigation from '@/components/Navigation/navigation';
+import Navigation from '@/components/navigation/navigation';
 
 import './global.css';
 import { getServerSession, Session } from 'next-auth';
-import AuthContext from '@/components/Auth/authContext';
+import AuthContext from '@/components/auth/authContext';
 
 export const metadata: Metadata = {
   title: 'Lifin',

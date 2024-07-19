@@ -10,9 +10,8 @@ const Navigation = () => {
   return (
     <div css={navStyle}>
       <Link href={'/'}>Main {path === '/' ? '🔥' : ''}</Link>
-      <Link href={'/maps/kakao'}>
-        Kakao Map {path === '/maps/kakao' ? '🔥' : ''}
-      </Link>
+      <Link href={'/maps'}>Kakao Map {path === '/maps' ? '🔥' : ''}</Link>
+      <Link href={'/login'}>Login{path === '/login' ? '🔥' : ''}</Link>
     </div>
   );
 };

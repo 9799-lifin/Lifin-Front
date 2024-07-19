@@ -2,7 +2,6 @@
 
 'use client';
 
-import Navigation from '@/components/navigation/navigation';
 import { css } from '@emotion/react';
 const Home = () => {
   return <div css={homeStyle}></div>;

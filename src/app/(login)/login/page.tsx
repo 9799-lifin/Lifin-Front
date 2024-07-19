@@ -2,9 +2,11 @@
 'use client';
 
 import { css } from '@emotion/react';
-import { useState } from 'react';
+import { useSession } from 'next-auth/react';
 
 const LoginPage = () => {
+  const { data } = useSession();
+  console.log(data);
   return <div css={loginStyle}></div>;
 };
 

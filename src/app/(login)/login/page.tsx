@@ -1,18 +1,11 @@
-/** @jsxImportSource @emotion/react */
 'use client';
 
-import { css } from '@emotion/react';
 import { useSession } from 'next-auth/react';
 
 const LoginPage = () => {
   const { data } = useSession();
   console.log(data);
-  return <div css={loginStyle}></div>;
+  return <div className="font-bold text-center text-2xl">로그인 페이지</div>;
 };
 
 export default LoginPage;
-
-const loginStyle = css`
-  color: black;
-  height: 100vh;
-`;

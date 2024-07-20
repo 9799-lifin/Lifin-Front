@@ -1,14 +1,5 @@
-/** @jsxImportSource @emotion/react */
-
-'use client';
-
-import { css } from '@emotion/react';
 const Home = () => {
-  return <div css={homeStyle}></div>;
+  return <div className="text-2xl font-bold text-center">메인 페이지</div>;
 };
-const homeStyle = css`
-  color: black;
-  height: 100vh;
-`;
 
 export default Home;

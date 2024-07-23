@@ -29,6 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@tanstack/react-query", "virtual:4be1ab0a7e30f302e5817b729721b9c9a378cd3d24d1066692d610e0e2cbc8b909f119caaf40a198c8653c73eeaee0690cac72c787f05e44806c24d92d991f63#npm:5.51.11"],\
           ["@tanstack/react-query-devtools", "virtual:4be1ab0a7e30f302e5817b729721b9c9a378cd3d24d1066692d610e0e2cbc8b909f119caaf40a198c8653c73eeaee0690cac72c787f05e44806c24d92d991f63#npm:5.51.11"],\
+          ["@types/gtag.js", "npm:0.0.20"],\
           ["@types/node", "npm:20.14.10"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\
@@ -508,6 +509,15 @@ const RAW_RUNTIME_STATE =
           "@types/react",\
           "@types/tanstack__react-query",\
           "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/gtag.js", [\
+      ["npm:0.0.20", {\
+        "packageLocation": "../../../../../../../.yarn/berry/cache/@types-gtag.js-npm-0.0.20-b10897fde5-10c0.zip/node_modules/@types/gtag.js/",\
+        "packageDependencies": [\
+          ["@types/gtag.js", "npm:0.0.20"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3747,6 +3757,7 @@ const RAW_RUNTIME_STATE =
           ["next14-yarn-app-standard", "workspace:."],\
           ["@tanstack/react-query", "virtual:4be1ab0a7e30f302e5817b729721b9c9a378cd3d24d1066692d610e0e2cbc8b909f119caaf40a198c8653c73eeaee0690cac72c787f05e44806c24d92d991f63#npm:5.51.11"],\
           ["@tanstack/react-query-devtools", "virtual:4be1ab0a7e30f302e5817b729721b9c9a378cd3d24d1066692d610e0e2cbc8b909f119caaf40a198c8653c73eeaee0690cac72c787f05e44806c24d92d991f63#npm:5.51.11"],\
+          ["@types/gtag.js", "npm:0.0.20"],\
           ["@types/node", "npm:20.14.10"],\
           ["@types/react", "npm:18.3.3"],\
           ["@types/react-dom", "npm:18.3.0"],\

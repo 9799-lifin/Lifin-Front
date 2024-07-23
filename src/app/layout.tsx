@@ -1,8 +1,6 @@
 import './globals.css';
 import { Metadata } from 'next';
-
-import AuthContext from '@/components/AuthContext';
-import Navigation from '@/components/Navigation';
+import { NextLayout, NextProvider } from './providers';
 
 export const metadata: Metadata = {
   title: 'Lifin',
@@ -16,12 +14,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <AuthContext>
-        <body>
-          <Navigation />
-          {children}
-        </body>
-      </AuthContext>
+      <body>
+        <NextProvider>
+          <NextLayout>{children}</NextLayout>
+        </NextProvider>
+      </body>
     </html>
   );
 }
